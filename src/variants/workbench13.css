@@ -1,0 +1,59 @@
+/* @settings
+name: Amiga Inspired
+id: amiga-inspired
+settings:
+  - id: amiga-personality
+    title: Workbench personality
+    type: class-select
+    default: amiga-workbench-13
+    options:
+      - label: Workbench 1.3
+        value: amiga-workbench-13
+      - label: Workbench 2.04
+        value: amiga-workbench-204
+      - label: Workbench 3.1
+        value: amiga-workbench-31
+*/
+/* Late-1980s Workbench, drawn from its four screen colours: #0055aa blue,
+   #ffffff white, #000022 black and #ff8800 orange. Title bars are white with dark
+   text and the highlight colour is orange — the 1.3 conventions, not the grey-and-blue
+   ones 2.0 introduced. Intermediate tones are blue dithered against white, the way a
+   four-colour screen faked extra shades.
+
+   One deliberate departure: real 1.3 drawer windows were blue inside. The window
+   surface is light here so long-form editing stays readable, per the design
+   philosophy that puts usability above strict historical accuracy. It is the screen
+   white dithered with a little of the screen blue rather than bare #ffffff, which is
+   too stark to write against for long stretches; raised gadgets and the title strip
+   keep the pure white so they still catch the light.
+
+   Colour only: the structural contract lives in src/components/workbench-chrome.css. */
+.amiga-workbench-13 {
+  --amiga-personality: "Workbench 1.3";
+  --amiga-desktop: #0055aa;
+  --amiga-window: #ebf1f8;
+  --amiga-panel: #c7daec;
+  --amiga-surface-raised: #ffffff;
+  --amiga-surface-recessed: #9ebedf;
+  --amiga-input-background: #e0ebf5;
+  --amiga-text: #000022;
+  --amiga-text-muted: #414a57;
+  --amiga-text-disabled: #6b7684;
+  --amiga-text-on-accent: #000022;
+  --amiga-text-on-selection: #000000;
+  --amiga-text-title: #000022;
+  --amiga-text-accent: #0055aa;
+  --amiga-titlebar: #ffffff;
+  --amiga-titlebar-inactive: #bfd5ea;
+  --amiga-border-light: #ffffff;
+  --amiga-border-middle: #80aad5;
+  --amiga-border-dark: #000022;
+  --amiga-accent: #ff8800;
+  --amiga-hover: #b2cce6;
+  --amiga-active: #ff8800;
+  --amiga-selection: #ff8800;
+  --amiga-focus: #0055aa;
+  --amiga-icon-paper: #ffffff;
+  --amiga-icon-ink: #000022;
+  --amiga-icon-accent: #ff8800;
+}

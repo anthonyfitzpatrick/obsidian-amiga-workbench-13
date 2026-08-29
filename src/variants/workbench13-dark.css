@@ -1,0 +1,34 @@
+/* Late-1980s Workbench after dark. Workbench 1.3 had no dark mode, so this keeps its
+   signatures — light title bars with dark text, orange as the highlight — over a deep
+   blue screen rather than inverting into a neutral charcoal.
+   Colour only: the structural contract lives in src/components/workbench-chrome.css. */
+.theme-dark.amiga-workbench-13 {
+  --amiga-personality: "Workbench 1.3";
+  color-scheme: dark;
+  --amiga-desktop: #001a45;
+  --amiga-window: #06285a;
+  --amiga-panel: #0b3570;
+  --amiga-surface-raised: #06285a;
+  --amiga-surface-recessed: #041f47;
+  --amiga-input-background: #041f47;
+  --amiga-text: #f2f6ff;
+  --amiga-text-muted: #b9c9e0;
+  --amiga-text-disabled: #93a6c1;
+  --amiga-text-on-accent: #00040f;
+  --amiga-text-on-selection: #000000;
+  --amiga-text-title: #f2f6ff;
+  --amiga-text-accent: #8fc2ff;
+  --amiga-titlebar: #12579f;
+  --amiga-titlebar-inactive: #14406f;
+  --amiga-border-light: #6f8fc0;
+  --amiga-border-middle: #123a72;
+  --amiga-border-dark: #00040f;
+  --amiga-accent: #ff8800;
+  --amiga-hover: #123f7a;
+  --amiga-active: #ff8800;
+  --amiga-selection: #ff8800;
+  --amiga-focus: #ff8800;
+  --amiga-icon-paper: #c9d8ec;
+  --amiga-icon-ink: #00040f;
+  --amiga-icon-accent: #ff8800;
+}
