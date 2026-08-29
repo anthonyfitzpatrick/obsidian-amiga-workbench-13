@@ -33,19 +33,7 @@ sits behind your panes, the windows are light and calm, the title strips are whi
 dark text, and orange marks whatever is currently selected — the active tab, the open
 note, the highlighted command. Nothing else is orange, which is precisely why it works.
 
-<!-- SCREENSHOT 02 -->
-> ### 📷 Screenshot 02 — Amiga Workbench 1.3 in dark mode
-> **Save as:** `docs/images/02-workspace-dark.png`
->
-> **What this image must show:** The same window, same note, same folders expanded — but in dark mode. Keeping the content identical to Screenshot 01 lets people compare the two directly.
->
-> **How to capture it:**
-> 1. Leave everything exactly as it was for Screenshot 01. Do not resize or change the note.
-> 2. Settings → Appearance → set **Base theme** to *Dark*.
-> 3. Close Settings.
-> 4. On macOS press <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>4</kbd>, then press <kbd>Space</kbd>, then click the Obsidian window — this captures the window cleanly with its shadow. On Windows use <kbd>Alt</kbd>+<kbd>PrtScn</kbd>, or Snipping Tool set to Window mode.
->
-> *Delete this block and replace it with:* `![Amiga Workbench 1.3 in dark mode](docs/images/02-workspace-dark.png)`
+![Amiga Workbench 1.3 in dark mode](docs/images/02-workspace-dark.png)
 
 ## Why you might choose this one
 
