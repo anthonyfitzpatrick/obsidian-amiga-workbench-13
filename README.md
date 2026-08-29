@@ -1,27 +1,280 @@
 # Amiga Workbench 1.3 for Obsidian
 
-Late-1980s Workbench: a blue screen, ivory windows and orange gadget accents.
+**A blue screen, ivory windows and an orange highlight. The flattest, boldest and most compact of the three.**
 
-An independent community theme that translates the visual language of classic Amiga Workbench — window chrome, purposeful bevels, desktop-like surfaces and clear gadget states — into a practical modern Obsidian workspace.
+> **This is an independent, unofficial, fan-made theme.**
+> It is **not affiliated with, endorsed by, sponsored by, approved by, or connected to**
+> Amiga Corporation, Amiga Inc., Cloanto, Hyperion Entertainment, the former Commodore
+> International, or any other present or former owner of the Amiga, Commodore, Kickstart
+> or Workbench trademarks. Nothing here is official. The developer has no relationship
+> with any of those parties. The theme is *inspired by* a remembered visual style — it is
+> not a reproduction of one, and it ships no original Amiga assets of any kind.
 
-Supports Obsidian's native light and dark appearance modes. No plugin is required: install the theme and use Obsidian's own appearance setting.
+---
+
+<!-- SCREENSHOT 01 -->
+> ### 📷 Screenshot 01 — Amiga Workbench 1.3 in light mode
+> **Save as:** `docs/images/01-workspace-light.png`
+>
+> **What this image must show:** The full Obsidian window in light mode: ribbon on the left, file explorer with a few folders expanded, a note open in the editor with a heading and a paragraph or two, and the status bar visible. This is the image people judge the theme by, so it should look like a real workspace rather than an empty one.
+>
+> **How to capture it:**
+> 1. Settings → Appearance → set **Base theme** to *Light*.
+> 2. Settings → Appearance → Themes → select **Amiga Workbench 1.3**.
+> 3. Resize the Obsidian window to roughly **1400 × 900**. Avoid full screen; the window edges are part of the look.
+> 4. Expand two or three folders in the file explorer so the indentation and connector rails are visible.
+> 5. Open a note with a heading, a couple of paragraphs and ideally a list.
+> 6. Close any modal or sidebar you do not want in the shot.
+> 7. On macOS press <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>4</kbd>, then press <kbd>Space</kbd>, then click the Obsidian window — this captures the window cleanly with its shadow. On Windows use <kbd>Alt</kbd>+<kbd>PrtScn</kbd>, or Snipping Tool set to Window mode.
+>
+> *Delete this block and replace it with:* `![Amiga Workbench 1.3 in light mode](docs/images/01-workspace-light.png)`
+
+## What this is
+
+Workbench 1.3 is the one people picture when they picture an Amiga. Boot an A500 in
+1988 and this is what filled the screen: a saturated blue desktop, hard white window
+frames, black text, and a single warm orange used sparingly to mean *this one*. Four
+colours, and not one of them wasted.
+
+That constraint is the whole character. There is no shading here, no soft edges, no
+gradients and no depth — the three-dimensional gadget had not been invented yet, and
+would not arrive until Workbench 2.0 two years later. Everything is drawn with flat
+fills and hard one-pixel outlines. Controls are compact and square. The interface does
+not try to look like a physical object; it looks like what it is, which is pixels
+arranged with conviction.
+
+This theme takes that language and applies it to a modern writing application. The blue
+sits behind your panes, the windows are light and calm, the title strips are white with
+dark text, and orange marks whatever is currently selected — the active tab, the open
+note, the highlighted command. Nothing else is orange, which is precisely why it works.
+
+<!-- SCREENSHOT 02 -->
+> ### 📷 Screenshot 02 — Amiga Workbench 1.3 in dark mode
+> **Save as:** `docs/images/02-workspace-dark.png`
+>
+> **What this image must show:** The same window, same note, same folders expanded — but in dark mode. Keeping the content identical to Screenshot 01 lets people compare the two directly.
+>
+> **How to capture it:**
+> 1. Leave everything exactly as it was for Screenshot 01. Do not resize or change the note.
+> 2. Settings → Appearance → set **Base theme** to *Dark*.
+> 3. Close Settings.
+> 4. On macOS press <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>4</kbd>, then press <kbd>Space</kbd>, then click the Obsidian window — this captures the window cleanly with its shadow. On Windows use <kbd>Alt</kbd>+<kbd>PrtScn</kbd>, or Snipping Tool set to Window mode.
+>
+> *Delete this block and replace it with:* `![Amiga Workbench 1.3 in dark mode](docs/images/02-workspace-dark.png)`
+
+## Why you might choose this one
+
+**If you are choosing between the three, pick 1.3 when you want the strongest
+character.** It is the only one that is flat, the only one with a coloured screen, and
+the only one that uses orange. Beside 2.04 and 3.1 — which are both grey, bevelled and
+descended from the same 1990 redesign — it looks like a different machine, because it
+was.
+
+## The palette
+
+Every colour below is stated plainly so you can see exactly what the theme does. Nothing
+is hidden behind a gradient or an image.
+
+| Role | Value | Notes |
+| --- | --- | --- |
+| Screen | `#0055aa` | The blue behind every pane, and the one colour you see before anything else |
+| Windows | `#ebf1f8` | The writing surface. The screen white, dithered with a little of the screen blue |
+| Panels | `#c7daec` | Explorer, sidebars and the ribbon, so the chrome sits back from the page |
+| Title strips | `#ffffff` | White with dark text, as Workbench 1.3 drew them |
+| Highlight | `#ff8800` | Selection and active state. Used sparingly and never decoratively |
+| Ink | `#000022` | Text and outlines |
+
+## The geometry
+
+| Property | Value | Notes |
+| --- | --- | --- |
+| Relief | Flat | No raised or recessed bevels. 1.x had none |
+| Border width | 1px | Hard, square, single-pixel outlines |
+| Corner radius | 0 | Nothing is rounded anywhere |
+| Spacing unit | 0.25rem | The most compact of the three |
+| Control height | 1.75rem | Small, dense gadgets |
+
+<!-- SCREENSHOT 03 -->
+> ### 📷 Screenshot 03 — Ribbon, explorer and tab bar detail
+> **Save as:** `docs/images/03-chrome-detail.png`
+>
+> **What this image must show:** A close crop of the left-hand chrome: the ribbon with its hand-drawn pictograms, the file explorer showing nested folders with their disclosure triangles and connector rails, and the tab bar along the top with at least three tabs open and one active.
+>
+> **How to capture it:**
+> 1. Light mode, as Screenshot 01.
+> 2. Open **three or four tabs** so the tab bar is populated and one is clearly active.
+> 3. Expand folders to at least **three levels deep** so the indentation is obvious.
+> 4. Capture the whole window as above, then crop to the left third plus the tab bar — roughly **700 × 600**.
+> 5. Do not scale the image down afterwards; these are pixel-drawn details and they blur easily.
+>
+> *Delete this block and replace it with:* `![Ribbon, explorer and tab bar detail](docs/images/03-chrome-detail.png)`
+
+## What is covered
+
+The theme styles the whole application, not just the editor:
+
+- **Workspace shell** — ribbon, tab bar, view headers, status bar, pane dividers
+- **File explorer** — indentation, disclosure triangles, connector rails, selection
+- **Editor and reading view** — headings, lists, links, code, tables, callouts, quotes
+- **Properties** — rebuilt as a Workbench-style requester with a keyed column
+- **Command palette and quick switcher** — recessed entry field, square result rows,
+  keyboard hints drawn as small raised gadgets
+- **Menus, modals, notices and tooltips** — hard frames, title strips, solid selection
+- **Canvas, graph, Bases and backlinks** — consistent surface and control treatment
+- **Settings** — including when opened in its own window
+
+<!-- SCREENSHOT 04 -->
+> ### 📷 Screenshot 04 — Editor, properties and callouts
+> **Save as:** `docs/images/04-editor-and-properties.png`
+>
+> **What this image must show:** A note open in the editor showing the properties table at the top with four or five fields filled in, a heading, body text, an inline code span, a fenced code block and a callout. This demonstrates the reading surface rather than the chrome.
+>
+> **How to capture it:**
+> 1. Light mode.
+> 2. Create or open a note with frontmatter containing at least **four properties** of mixed types — text, list, date, checkbox.
+> 3. Below it add a heading, a paragraph, a `> [!note]` callout and a fenced code block.
+> 4. Make sure the properties table is **expanded**, not collapsed.
+> 5. Capture the editor pane only — collapse the sidebars first if it helps — roughly **900 × 800**.
+>
+> *Delete this block and replace it with:* `![Editor, properties and callouts](docs/images/04-editor-and-properties.png)`
 
 ## Installation
 
-**Community Themes** — open Settings → Appearance → Themes → Manage, then search for "Amiga Workbench 1.3".
+### From Obsidian's Community Themes browser
 
-**Manual** — copy `theme.css` and `manifest.json` into `<vault>/.obsidian/themes/Amiga Workbench 1.3/`, then select the theme under Settings → Appearance.
+1. Open **Settings → Appearance**.
+2. Under **Themes**, choose **Manage**.
+3. Search for **Amiga Workbench 1.3**.
+4. Select it and choose **Use**.
 
-## Source
+### Manually
 
-This theme is generated from the shared source repository at
-<https://github.com/anthonyfitzpatrick/obsidian-amiga-inspired-theme>, which builds
-Amiga Workbench 1.3, 2.04 and 3.1 from one set of components. The three themes share a
-single structural contract and differ only in palette.
+1. Download `theme.css` and `manifest.json` from this repository.
+2. Place both in `YourVault/.obsidian/themes/Amiga Workbench 1.3/` — the folder name must match exactly.
+3. In Obsidian, go to **Settings → Appearance → Themes** and select **Amiga Workbench 1.3**.
+4. If it does not appear, close and reopen Obsidian.
 
-`theme.css` here is a generated artifact — send fixes to the source repository rather
-than editing it directly.
+## Light and dark
 
-## Trademark notice
+Both modes are designed, not generated. Switch with **Settings → Appearance → Base theme**.
+No plugin is involved.
 
-Amiga Workbench 1.3 for Obsidian is an independent community-created theme inspired by the visual language of classic Amiga Workbench environments. It is not affiliated with, endorsed by, or sponsored by the owners of the Amiga or Workbench trademarks. No original Amiga, Commodore, Workbench, ROM, font, or icon assets are distributed.
+Workbench 1.3 never had a dark mode; the hardware barely had the colours for one.
+This one is an invention, but a disciplined one: it keeps 1.3's signatures rather than
+inverting into generic charcoal. The screen goes deep navy, windows become dark blue,
+title strips stay light with dark text, and orange remains the highlight.
+
+## Fonts
+
+The theme follows *your* typography settings. Set **Settings → Appearance → Interface font,
+Text font, Monospace font** and **Font size**, and the entire interface follows — including
+the tab bar, view headers, file explorer and status bar.
+
+Leave them unset and the theme's own stack applies. It never overrides a font you have
+chosen.
+
+## Requirements
+
+- Obsidian **1.6.0** or later
+- No plugins. The theme is plain CSS and works on its own.
+
+Optional: if you already use the **Style Settings** plugin, a few extra toggles appear.
+They are described in the [User Guide](USERGUIDE.md). Without the plugin the theme is
+complete and unchanged.
+
+## Accessibility
+
+- Every text and background pair is contrast-checked in both light and dark modes
+- Keyboard focus is always visible, with a dedicated focus colour
+- `prefers-reduced-motion` is respected
+- `prefers-contrast: more` strengthens frames and removes muted text
+- Printing and PDF export drop the screen palette for black on white
+
+## Documentation
+
+- **[User Guide](USERGUIDE.md)** — a fuller walkthrough, including customisation and
+  troubleshooting
+
+## Where this comes from
+
+This theme is generated from a shared source repository,
+[obsidian-amiga-inspired-theme](https://github.com/anthonyfitzpatrick/obsidian-amiga-inspired-theme),
+which builds Workbench 1.3, 2.04 and 3.1 from one structural contract. The three differ in
+colour and in a small, declared set of style values — relief depth, spacing, control size —
+and nothing else.
+
+`theme.css` in this repository is a **generated build artifact**. Please send fixes and
+suggestions to the source repository rather than editing it here.
+
+## Trademarks, affiliation and intellectual property
+
+Please read this section in full. It matters.
+
+### No affiliation whatsoever
+
+Amiga Workbench 1.3 for Obsidian is an **independent, unofficial, community-created theme**. The
+developer is a private individual with **no relationship of any kind** to:
+
+- Amiga Corporation, Amiga Inc., or any entity trading under the Amiga name
+- Cloanto Corporation, holders of Commodore/Amiga ROM and Workbench copyrights
+- Hyperion Entertainment, developers and rights-holders of later AmigaOS releases
+- The former Commodore International, Commodore Business Machines, or their successors
+- Haage & Partner, or any other historical Amiga software publisher
+- Any present, former or claimed owner of the Amiga, Commodore, Kickstart, AmigaOS or
+  Workbench trademarks, in any territory
+
+There is **no endorsement, sponsorship, approval, licence, partnership, or association**,
+express or implied. Nothing in this project should be read as suggesting otherwise. If
+you have arrived here believing this is an official product, it is not.
+
+### Why the name refers to Workbench at all
+
+The name is **descriptive, not proprietary**. It tells you which remembered look the
+palette and proportions are drawn from — the Workbench of the late 1980s — in the same way a paint colour might be
+called "racing green" without any claim on a car manufacturer. This is nominative use:
+naming a thing in order to describe a resemblance to it. It is not a claim of origin,
+authorship or authority.
+
+The project's own framing is **"Amiga Inspired"**. Inspired by. Not a port, not a
+recreation, not a replica, not a continuation, and not a substitute for anything real.
+
+### No original assets are used or distributed
+
+This theme is **CSS only**. It contains no copyrighted material from any Amiga or
+Commodore product. Specifically, it does **not** contain, embed, adapt, trace, or
+redistribute:
+
+- Workbench, AmigaOS or Kickstart ROM code, or any part of any operating system
+- Original Workbench icons, or any icon set derived from them
+- MagicWB, NewIcons, GlowIcons, or any other third-party Amiga icon set
+- Topaz or any other Amiga bitmap font, or any digitisation of one
+- Original wallpapers, backdrops, pointers, brand marks or logos
+- Screenshots of any Amiga system, used as an asset or otherwise
+
+Every graphic in this theme is an **original drawing**, authored for this project as
+inline SVG, using ordinary geometry. Colour values are stated as plain numbers. Colours
+themselves are not copyrightable, and no artwork has been copied.
+
+### Trademark acknowledgement
+
+Amiga, AmigaOS, Kickstart and Workbench are trademarks or registered trademarks of their
+respective owners. Commodore is a trademark of its respective owner. All such marks are
+acknowledged as the property of those owners, and are used here only descriptively, to
+identify the historical visual style that inspired this work.
+
+Obsidian is a trademark of Dynalist Inc. This theme is a community theme for Obsidian and
+is not produced by, endorsed by, or affiliated with Dynalist Inc.
+
+### If you are a rights-holder
+
+If you represent any rights-holder and consider anything in this project to overstep,
+please open an issue on the repository. The developer's intention is respectful homage
+within the bounds of independent creative work, and any specific, good-faith concern will
+be addressed promptly and without argument.
+
+### Licence
+
+This theme is released under the **MIT Licence**. See [LICENSE](LICENSE) for the full
+text. The MIT Licence covers **only the original CSS and documentation in this
+repository**. It does not, and cannot, grant any rights in any third party's trademarks
+or copyrighted works, and confers no rights in anything owned by the parties named above.
