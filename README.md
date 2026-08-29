@@ -12,7 +12,7 @@
 
 ---
 
-![Amiga Workbench 1.3](screenshot.png)
+![Amiga Workbench 1.3](https://raw.githubusercontent.com/anthonyfitzpatrick/obsidian-amiga-workbench-13/main/screenshot.png)
 
 ## What this is
 
@@ -33,7 +33,7 @@ sits behind your panes, the windows are light and calm, the title strips are whi
 dark text, and orange marks whatever is currently selected — the active tab, the open
 note, the highlighted command. Nothing else is orange, which is precisely why it works.
 
-![Amiga Workbench 1.3 in dark mode](docs/images/02-workspace-dark.png)
+![Amiga Workbench 1.3 in dark mode](https://raw.githubusercontent.com/anthonyfitzpatrick/obsidian-amiga-workbench-13/main/docs/images/02-workspace-dark.png)
 
 ## Why you might choose this one
 
@@ -67,7 +67,7 @@ is hidden behind a gradient or an image.
 | Spacing unit | 0.25rem | The most compact of the three |
 | Control height | 1.75rem | Small, dense gadgets |
 
-![Ribbon and file explorer](docs/images/03-chrome-detail.png)
+![Ribbon and file explorer](https://raw.githubusercontent.com/anthonyfitzpatrick/obsidian-amiga-workbench-13/main/docs/images/03-chrome-detail.png)
 
 ## What is covered
 
@@ -83,7 +83,7 @@ The theme styles the whole application, not just the editor:
 - **Canvas, graph, Bases and backlinks** — consistent surface and control treatment
 - **Settings** — including when opened in its own window
 
-![Editor and properties](docs/images/04-editor-and-properties.png)
+![Editor and properties](https://raw.githubusercontent.com/anthonyfitzpatrick/obsidian-amiga-workbench-13/main/docs/images/04-editor-and-properties.png)
 
 ## Installation
 
