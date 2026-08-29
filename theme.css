@@ -68,11 +68,21 @@
   --amiga-code-line-height: 1.5;
 }
 
-/* Mapped on body, not :root. A personality declares its palette on body, and a custom
-   property substitutes var() against the element it is declared on — so mapping here
-   at :root would resolve every Obsidian token against the generic defaults and the
-   personality would never reach them. */
-body {
+/* Scoped to body.theme-*, which is load-bearing in two directions. It must be on body
+   because a personality declares its palette there and a custom property substitutes
+   var() against the element it is declared on, so mapping at :root would resolve every
+   token against the generic defaults. It must carry the theme class because Obsidian
+   declares its own tokens on .theme-light and .theme-dark at (0,1,0); a bare body
+   selector is (0,0,1) and loses to them. */
+body.theme-light,
+body.theme-dark {
+  /* Derived from other semantic tokens, so they must resolve here rather than at
+     :root, where the personality's values are not yet in scope. */
+  --amiga-bevel-highlight: var(--amiga-border-light);
+  --amiga-bevel-mid: var(--amiga-border-middle);
+  --amiga-bevel-shadow: var(--amiga-border-dark);
+  --amiga-bevel-deep: var(--amiga-border-dark);
+
   --background-primary: var(--amiga-window);
   --background-primary-alt: var(--amiga-panel);
   --background-secondary: var(--amiga-desktop);
@@ -960,6 +970,7 @@ body.theme-light {
   --amiga-text: #000022;
   --amiga-text-muted: #414a57;
   --amiga-text-disabled: #6b7684;
+  --amiga-text-on-accent: #000022;
   --amiga-text-title: #000022;
   --amiga-text-accent: #0055aa;
   --amiga-titlebar: #ffffff;
@@ -994,6 +1005,7 @@ body.theme-dark {
   --amiga-text: #f2f6ff;
   --amiga-text-muted: #b9c9e0;
   --amiga-text-disabled: #93a6c1;
+  --amiga-text-on-accent: #00040f;
   --amiga-text-title: #001028;
   --amiga-text-accent: #8fc2ff;
   --amiga-titlebar: #c9d8ec;
