@@ -73,8 +73,6 @@ is hidden behind a gradient or an image.
 
 The theme styles the whole application, not just the editor:
 
-![Tab strip, breadcrumbs and toolbar](https://raw.githubusercontent.com/anthonyfitzpatrick/obsidian-amiga-workbench-13/main/docs/images/05-tab-strip.png)
-
 - **Workspace shell** — ribbon, tab bar, view headers, status bar, pane dividers
 - **File explorer** — indentation, disclosure triangles, connector rails, selection
 - **Editor and reading view** — headings, lists, links, code, tables, callouts, quotes
@@ -85,7 +83,7 @@ The theme styles the whole application, not just the editor:
 - **Canvas, graph, Bases and backlinks** — consistent surface and control treatment
 - **Settings** — including when opened in its own window
 
-![Editor and properties](https://raw.githubusercontent.com/anthonyfitzpatrick/obsidian-amiga-workbench-13/main/docs/images/04-editor-and-properties.png)
+![Tab strip, breadcrumbs and toolbar](https://raw.githubusercontent.com/anthonyfitzpatrick/obsidian-amiga-workbench-13/main/docs/images/04-tab-strip.png)
 
 ## Installation
 
