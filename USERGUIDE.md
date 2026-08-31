@@ -50,7 +50,6 @@ deliberate departure and there are only a handful of them.
 
 ![Selecting the theme](docs/images/g01-select-theme.png)
 
-
 ### From the Community Themes browser
 
 1. Open **Settings** — the gear icon at the bottom of the ribbon, or <kbd>Cmd/Ctrl</kbd>+<kbd>,</kbd>.
@@ -80,9 +79,7 @@ Go to **Settings → Appearance → Base theme** and choose *Light* or *Dark*.
 
 ![Light mode](screenshot.png)
 
-
 ![Dark mode](docs/images/02-workspace-dark.png)
-
 
 Workbench 1.3 never had a dark mode; the hardware barely had the colours for one.
 This one is an invention, but a disciplined one: it keeps 1.3's signatures rather than
@@ -124,7 +121,6 @@ whichever plugins you have.
 
 ![File explorer and indentation](docs/images/03-chrome-detail.png)
 
-
 Each nesting level is marked by a connector rail dropping from beneath its parent's
 disclosure triangle. Folder and file labels align at every depth. Disclosure triangles are
 drawn in the accent colour and point right when collapsed, down when open.
@@ -158,7 +154,6 @@ on the left, values in recessed fields on the right.
 
 ![Command palette](docs/images/g07-command-palette.png)
 
-
 The palette gets a recessed entry field over square result rows, with a solid selection
 bar and keyboard hints drawn as small raised gadgets — the way Workbench drew key labels.
 Menus, modals, tooltips and notices share the same frame treatment.
@@ -184,22 +179,6 @@ rows and the status bar all grow. It is not pinned to a fixed pixel size.
 
 The theme needs no plugins. If you already use the **Style Settings** community plugin,
 five extra toggles appear under an **Amiga Workbench** section.
-
-<!-- SCREENSHOT 08 -->
-> ### 📷 Screenshot 08 — Optional Style Settings controls
-> **Save as:** `docs/images/g08-style-settings.png`
->
-> **What this image must show:** The Style Settings plugin panel showing this theme's five toggles. Only include this image if you have the Style Settings plugin installed; the theme does not require it.
->
-> **How to capture it:**
-> 1. Install and enable the **Style Settings** community plugin.
-> 2. Open Settings → **Style Settings**.
-> 3. Expand the **Amiga Workbench** section so all five toggles are visible.
-> 4. Crop to the settings panel, roughly **800 × 500**.
-> 5. If you would rather not document the plugin at all, delete this placeholder and the *Optional Style Settings* section that follows it.
->
-> *Delete this block and replace it with:* `![Optional Style Settings controls](docs/images/g08-style-settings.png)`
-
 
 | Toggle | What it does |
 | --- | --- |
