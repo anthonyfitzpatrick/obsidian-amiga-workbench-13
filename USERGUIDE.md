@@ -48,20 +48,7 @@ deliberate departure and there are only a handful of them.
 
 ## Installing
 
-<!-- SCREENSHOT 01 -->
-> ### 📷 Screenshot 01 — Selecting the theme
-> **Save as:** `docs/images/g01-select-theme.png`
->
-> **What this image must show:** The Settings → Appearance pane with the Themes dropdown open and this theme highlighted, so a new user can see exactly where the setting lives.
->
-> **How to capture it:**
-> 1. Open **Settings** (the gear icon, bottom-left of the ribbon).
-> 2. Go to **Appearance**.
-> 3. Scroll to **Themes** and click the dropdown so the list of installed themes is open.
-> 4. Make sure **Amiga Workbench 1.3** is visible and highlighted in the list.
-> 5. On macOS press <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>4</kbd>, then press <kbd>Space</kbd>, then click the Obsidian window — this captures the window cleanly with its shadow. On Windows use <kbd>Alt</kbd>+<kbd>PrtScn</kbd>, or Snipping Tool set to Window mode.
->
-> *Delete this block and replace it with:* `![Selecting the theme](docs/images/g01-select-theme.png)`
+![Selecting the theme](docs/images/g01-select-theme.png)
 
 
 ### From the Community Themes browser
@@ -91,32 +78,10 @@ Both modes were designed separately. Neither is a mechanical inversion of the ot
 
 Go to **Settings → Appearance → Base theme** and choose *Light* or *Dark*.
 
-<!-- SCREENSHOT 02 -->
-> ### 📷 Screenshot 02 — Light mode
-> **Save as:** `docs/images/g02-light-mode.png`
->
-> **What this image must show:** The full workspace in light mode with a note open. Same guidance as the README hero image — a populated, realistic workspace rather than an empty one.
->
-> **How to capture it:**
-> 1. Settings → Appearance → **Base theme: Light**.
-> 2. Open a note with real content and expand a few explorer folders.
-> 3. Window at roughly **1400 × 900**.
-> 4. On macOS press <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>4</kbd>, then press <kbd>Space</kbd>, then click the Obsidian window — this captures the window cleanly with its shadow. On Windows use <kbd>Alt</kbd>+<kbd>PrtScn</kbd>, or Snipping Tool set to Window mode.
->
-> *Delete this block and replace it with:* `![Light mode](docs/images/g02-light-mode.png)`
+![Light mode](screenshot.png)
 
 
-<!-- SCREENSHOT 03 -->
-> ### 📷 Screenshot 03 — Dark mode
-> **Save as:** `docs/images/g03-dark-mode.png`
->
-> **What this image must show:** The identical window and note in dark mode, for direct comparison with the previous image.
->
-> **How to capture it:**
-> 1. Change **only** the Base theme to *Dark*. Change nothing else.
-> 2. On macOS press <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>4</kbd>, then press <kbd>Space</kbd>, then click the Obsidian window — this captures the window cleanly with its shadow. On Windows use <kbd>Alt</kbd>+<kbd>PrtScn</kbd>, or Snipping Tool set to Window mode.
->
-> *Delete this block and replace it with:* `![Dark mode](docs/images/g03-dark-mode.png)`
+![Dark mode](docs/images/02-workspace-dark.png)
 
 
 Workbench 1.3 never had a dark mode; the hardware barely had the colours for one.
@@ -157,19 +122,7 @@ whichever plugins you have.
 
 ### The file explorer
 
-<!-- SCREENSHOT 05 -->
-> ### 📷 Screenshot 05 — File explorer and indentation
-> **Save as:** `docs/images/g05-explorer.png`
->
-> **What this image must show:** The file explorer with folders expanded at least four levels deep, showing the disclosure triangles, the per-level connector rails, and files aligned with their parent folders.
->
-> **How to capture it:**
-> 1. Light mode.
-> 2. Expand a deep folder chain — **four or more levels** — so the rails are clearly visible.
-> 3. Include at least one folder that is **collapsed** so both triangle states appear.
-> 4. Crop to the explorer pane, roughly **400 × 700**.
->
-> *Delete this block and replace it with:* `![File explorer and indentation](docs/images/g05-explorer.png)`
+![File explorer and indentation](docs/images/03-chrome-detail.png)
 
 
 Each nesting level is marked by a connector rail dropping from beneath its parent's
@@ -203,19 +156,7 @@ on the left, values in recessed fields on the right.
 
 ### Command palette, menus and notices
 
-<!-- SCREENSHOT 07 -->
-> ### 📷 Screenshot 07 — Command palette
-> **Save as:** `docs/images/g07-command-palette.png`
->
-> **What this image must show:** The command palette open over a note, showing the recessed search field, the result rows, the selected row highlighted, and the keyboard hint gadgets on the right.
->
-> **How to capture it:**
-> 1. Press <kbd>Cmd/Ctrl</kbd>+<kbd>P</kbd> to open the command palette.
-> 2. Type a few letters so several results appear, with one highlighted.
-> 3. Capture the whole window so the palette is shown in context, then crop to roughly **900 × 700**.
-> 4. Do not press Escape before capturing — use the screenshot shortcut with the palette still open.
->
-> *Delete this block and replace it with:* `![Command palette](docs/images/g07-command-palette.png)`
+![Command palette](docs/images/g07-command-palette.png)
 
 
 The palette gets a recessed entry field over square result rows, with a solid selection
