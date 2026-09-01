@@ -1,4 +1,4 @@
-# Amiga Workbench 1.3 for Obsidian
+# Modern Amiga Workbench 1.3 inspired
 
 **A blue screen, ivory windows and an orange highlight. The flattest, boldest and most compact of the three.**
 
