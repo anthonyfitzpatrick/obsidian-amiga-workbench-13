@@ -67,7 +67,7 @@ Useful if you are working offline, or want a specific version.
 
 1. Download **`theme.css`** and **`manifest.json`** from this repository.
 2. Find your vault folder on disk, then open the hidden `.obsidian` folder inside it.
-3. Create `themes/Modern Amiga Workbench 1.3 inspired theme/` inside `.obsidian` if it does not already exist. **The folder name
+3. Create `themes/Modern Amiga Workbench 1.3 inspired/` inside `.obsidian` if it does not already exist. **The folder name
    must match the theme name exactly**, including capitals and spaces, or Obsidian will
    not list it.
 4. Put both files in that folder.
@@ -214,7 +214,7 @@ Two things worth knowing:
 ## Troubleshooting
 
 **The theme does not appear in the list.**
-Check the folder is `.obsidian/themes/Modern Amiga Workbench 1.3 inspired theme/` and contains both `theme.css` and
+Check the folder is `.obsidian/themes/Modern Amiga Workbench 1.3 inspired/` and contains both `theme.css` and
 `manifest.json`. The folder name must match exactly. Restart Obsidian.
 
 **I changed the theme but nothing happened.**
@@ -237,7 +237,7 @@ switching modes with a modal open.
 ## Uninstalling
 
 Go to **Settings → Appearance → Themes** and select **Default**, or another theme. To
-remove it from disk, delete `.obsidian/themes/Modern Amiga Workbench 1.3 inspired theme/`.
+remove it from disk, delete `.obsidian/themes/Modern Amiga Workbench 1.3 inspired/`.
 
 Nothing is left behind. The theme writes no settings, stores no data, and touches nothing
 outside its own folder.
