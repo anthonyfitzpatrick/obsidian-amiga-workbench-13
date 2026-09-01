@@ -13,7 +13,7 @@
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/anthonyfitzpatrick/obsidian-amiga-workbench-13/main/screenshot.png" alt="Amiga Workbench 1.3" width="900">
+  <img src="https://raw.githubusercontent.com/anthonyfitzpatrick/obsidian-theme-inspired-by-amiga-workbench-1.3/main/screenshot.png" alt="Amiga Workbench 1.3" width="900">
 </p>
 
 <p align="center"><em>Workbench 1.3 in light mode. The saturated blue desktop sits behind pale windows, title strips are white carrying dark text, and orange marks the one thing that is selected — here the open scene in the file tree and its tab above.</em></p>
@@ -38,7 +38,7 @@ dark text, and orange marks whatever is currently selected — the active tab, t
 note, the highlighted command. Nothing else is orange, which is precisely why it works.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/anthonyfitzpatrick/obsidian-amiga-workbench-13/main/docs/images/02-workspace-dark.png" alt="Amiga Workbench 1.3 in dark mode" width="900">
+  <img src="https://raw.githubusercontent.com/anthonyfitzpatrick/obsidian-theme-inspired-by-amiga-workbench-1.3/main/docs/images/02-workspace-dark.png" alt="Amiga Workbench 1.3 in dark mode" width="900">
 </p>
 
 <p align="center"><em>The same workspace in dark mode. Workbench 1.3 never had one, so this is an invention rather than a reconstruction: the screen drops to deep navy and windows become dark blue, but the orange still marks selection and nothing else, exactly as it does in light.</em></p>
@@ -76,7 +76,7 @@ is hidden behind a gradient or an image.
 | Control height | 1.75rem | Small, dense gadgets |
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/anthonyfitzpatrick/obsidian-amiga-workbench-13/main/docs/images/03-chrome-detail.png" alt="Ribbon and file explorer" width="400">
+  <img src="https://raw.githubusercontent.com/anthonyfitzpatrick/obsidian-theme-inspired-by-amiga-workbench-1.3/main/docs/images/03-chrome-detail.png" alt="Ribbon and file explorer" width="400">
 </p>
 
 <p align="center"><em>The ribbon and the file tree at depth. Every nesting level drops a connector rail from beneath its parent's disclosure triangle, so folder and file labels stay aligned however deep the structure runs. The ribbon pictograms are original drawings, not Obsidian's default line icons.</em></p>
@@ -96,7 +96,7 @@ The theme styles the whole application, not just the editor:
 - **Settings** — including when opened in its own window
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/anthonyfitzpatrick/obsidian-amiga-workbench-13/main/docs/images/04-tab-strip.png" alt="Tab strip, breadcrumbs and toolbar" width="900">
+  <img src="https://raw.githubusercontent.com/anthonyfitzpatrick/obsidian-theme-inspired-by-amiga-workbench-1.3/main/docs/images/04-tab-strip.png" alt="Tab strip, breadcrumbs and toolbar" width="900">
 </p>
 
 <p align="center"><em>The tab strip, the breadcrumb path and the toolbar row beneath them. Tabs are drawn as attached rectangular selectors over the title bar, with the new-tab gadget sharing their top and bottom edges. The path is plain clickable text rather than a row of boxes, and the current note is the only bold segment.</em></p>
