@@ -1,7 +1,7 @@
 import { access, readFile } from 'node:fs/promises';
 
 /* Checks this theme on its own. Nothing here reads another repository. */
-const NAME = 'Amiga Workbench 1.3';
+const NAME = 'Modern Amiga Workbench 1.3 inspired theme';
 const SLUG = 'workbench13';
 
 for (const f of ['manifest.json', 'theme.css', 'README.md', 'LICENSE']) await access(f);
