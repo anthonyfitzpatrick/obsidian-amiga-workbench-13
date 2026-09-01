@@ -12,7 +12,11 @@
 
 ---
 
-![Amiga Workbench 1.3](https://raw.githubusercontent.com/anthonyfitzpatrick/obsidian-amiga-workbench-13/main/screenshot.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/anthonyfitzpatrick/obsidian-amiga-workbench-13/main/screenshot.png" alt="Amiga Workbench 1.3" width="900">
+</p>
+
+<p align="center"><em>Workbench 1.3 in light mode. The saturated blue desktop sits behind pale windows, title strips are white carrying dark text, and orange marks the one thing that is selected — here the open scene in the file tree and its tab above.</em></p>
 
 ## What this is
 
@@ -21,10 +25,10 @@ Workbench 1.3 is the one people picture when they picture an Amiga. Boot an A500
 frames, black text, and a single warm orange used sparingly to mean *this one*. Four
 colours, and not one of them wasted.
 
-That constraint is the whole character. There is no shading here, no soft edges, no
-gradients and no depth — the three-dimensional gadget had not been invented yet, and
-would not arrive until Workbench 2.0 two years later. Everything is drawn with flat
-fills and hard one-pixel outlines. Controls are compact and square. The interface does
+That constraint is the whole character. There is no shading here, no soft edges and no
+gradients — the three-dimensional gadget had not been invented yet, and would not arrive
+until Workbench 2.0 two years later. Everything is drawn with flat fills and hard
+one-pixel outlines, relieved by no more than a single pixel of highlight and shade. Controls are compact and square. The interface does
 not try to look like a physical object; it looks like what it is, which is pixels
 arranged with conviction.
 
@@ -33,12 +37,16 @@ sits behind your panes, the windows are light and calm, the title strips are whi
 dark text, and orange marks whatever is currently selected — the active tab, the open
 note, the highlighted command. Nothing else is orange, which is precisely why it works.
 
-![Amiga Workbench 1.3 in dark mode](https://raw.githubusercontent.com/anthonyfitzpatrick/obsidian-amiga-workbench-13/main/docs/images/02-workspace-dark.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/anthonyfitzpatrick/obsidian-amiga-workbench-13/main/docs/images/02-workspace-dark.png" alt="Amiga Workbench 1.3 in dark mode" width="900">
+</p>
+
+<p align="center"><em>The same workspace in dark mode. Workbench 1.3 never had one, so this is an invention rather than a reconstruction: the screen drops to deep navy and windows become dark blue, but the orange still marks selection and nothing else, exactly as it does in light.</em></p>
 
 ## Why you might choose this one
 
 **If you are choosing between the three, pick 1.3 when you want the strongest
-character.** It is the only one that is flat, the only one with a coloured screen, and
+character.** It is by far the flattest, the only one with a coloured screen, and
 the only one that uses orange. Beside 2.04 and 3.1 — which are both grey, bevelled and
 descended from the same 1990 redesign — it looks like a different machine, because it
 was.
@@ -61,13 +69,17 @@ is hidden behind a gradient or an image.
 
 | Property | Value | Notes |
 | --- | --- | --- |
-| Relief | Flat | No raised or recessed bevels. 1.x had none |
+| Relief | 1px, minimal | A single-pixel highlight and shade, never 2.0's full relief |
 | Border width | 1px | Hard, square, single-pixel outlines |
 | Corner radius | 0 | Nothing is rounded anywhere |
 | Spacing unit | 0.25rem | The most compact of the three |
 | Control height | 1.75rem | Small, dense gadgets |
 
-![Ribbon and file explorer](https://raw.githubusercontent.com/anthonyfitzpatrick/obsidian-amiga-workbench-13/main/docs/images/03-chrome-detail.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/anthonyfitzpatrick/obsidian-amiga-workbench-13/main/docs/images/03-chrome-detail.png" alt="Ribbon and file explorer" width="400">
+</p>
+
+<p align="center"><em>The ribbon and the file tree at depth. Every nesting level drops a connector rail from beneath its parent's disclosure triangle, so folder and file labels stay aligned however deep the structure runs. The ribbon pictograms are original drawings, not Obsidian's default line icons.</em></p>
 
 ## What is covered
 
@@ -83,7 +95,11 @@ The theme styles the whole application, not just the editor:
 - **Canvas, graph, Bases and backlinks** — consistent surface and control treatment
 - **Settings** — including when opened in its own window
 
-![Tab strip, breadcrumbs and toolbar](https://raw.githubusercontent.com/anthonyfitzpatrick/obsidian-amiga-workbench-13/main/docs/images/04-tab-strip.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/anthonyfitzpatrick/obsidian-amiga-workbench-13/main/docs/images/04-tab-strip.png" alt="Tab strip, breadcrumbs and toolbar" width="900">
+</p>
+
+<p align="center"><em>The tab strip, the breadcrumb path and the toolbar row beneath them. Tabs are drawn as attached rectangular selectors over the title bar, with the new-tab gadget sharing their top and bottom edges. The path is plain clickable text rather than a row of boxes, and the current note is the only bold segment.</em></p>
 
 ## Installation
 
